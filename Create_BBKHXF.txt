@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1250\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 CREATE TABLE Aut\'f3( Henger\uc0\u117 \u779 rtartalom NUMERIC(5), Teljestm\'e9ny NUMERIC(4) NOT NULL, Sz\'edn VARCHAR(15) NOT NULL, \'c1r NUMERIC(10) NOT NULL, Aut\'f3Id INT NOT NULL, T\'edpus VARCHAR(40) NOT NULL, PRIMARY KEY (Aut\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Besz\'e1ll\'edt\'f3( M\'e1rkan\'e9v VARCHAR(10) NOT NULL, Besz\'e1ll\'edt\'f3Id INT NOT NULL, H\'e1zsz\'e1m NUMERIC(5) NOT NULL, Telep\'fcl\'e9s VARCHAR(15) NOT NULL, Ir\'e1ny\'edt\'f3sz\'e1m NUMERIC(5) CHECK(Ir\'e1ny\'edt\'f3sz\'e1m>0), Utca VARCHAR(20) NOT NULL, PRIMARY KEY (Besz\'e1ll\'edt\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Keresked\'e9s( Keresked\'e9sId INT NOT NULL, Tartalmaz NUMERIC(1) NOT NULL, Aut\'f3Id INT NOT NULL, PRIMARY KEY (Keresked\'e9sId), FOREIGN KEY (Aut\'f3Id) REFERENCES Aut\'f3(Aut\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Sz\'e1mla( \'d6sszeg NUMERIC(12) NOT NULL, D\'e1tum DATE NOT NULL, Sz\'e1mlaId INT NOT NULL, PRIMARY KEY (Sz\'e1mlaId)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Rendel\'e9s( Darabsz\'e1m NUMERIC(3) NOT NULL, Rendel\'e9sId INT NOT NULL, D\'e1tum DATE NOT NULL, Besz\'e1ll\'edt\'f3Id INT NOT NULL, Aut\'f3Id INT NOT NULL, PRIMARY KEY (Rendel\'e9sId), FOREIGN KEY (Besz\'e1ll\'edt\'f3Id) REFERENCES Besz\'e1ll\'edt\'f3(Besz\'e1ll\'edt\'f3Id), FOREIGN KEY (Aut\'f3Id) REFERENCES Aut\'f3(Aut\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Dolgoz\'f3( H\'e1zsz\'e1m NUMERIC(4) NOT NULL, Ir\'e1ny\'edt\'f3sz\'e1m NUMERIC(5) NOT NULL, Utca VARCHAR(20) NOT NULL, Telep\'fcl\'e9s VARCHAR(15) NOT NULL, Fizet\'e9s NUMERIC(7) NOT NULL, Dolgoz\'f3Id INT NOT NULL, Beoszt\'e1sId INT NOT NULL, PRIMARY KEY (Dolgoz\'f3Id), FOREIGN KEY (Beoszt\'e1sId) REFERENCES Dolgoz\'f3_Beoszt\'e1s(Beoszt\'e1sId)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Foglalkoztat\'e1s( Keresked\'e9sId INT NOT NULL, Dolgoz\'f3Id INT NOT NULL, PRIMARY KEY (Keresked\'e9sId), FOREIGN KEY (Keresked\'e9sId) REFERENCES Keresked\'e9s(Keresked\'e9sId), FOREIGN KEY (Dolgoz\'f3Id) REFERENCES Dolgoz\'f3(Dolgoz\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Aut\'f3_Hajt\'e1s( Hajt\'e1s VARCHAR(100) NOT NULL, Aut\'f3Id INT NOT NULL, PRIMARY KEY (Aut\'f3Id), FOREIGN KEY (Aut\'f3Id) REFERENCES Aut\'f3(Aut\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Aut\'f3_Extr\'e1k( Extr\'e1k VARCHAR(100) NOT NULL, Aut\'f3Id INT NOT NULL, PRIMARY KEY (Aut\'f3Id), FOREIGN KEY (Aut\'f3Id) REFERENCES Aut\'f3(Aut\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Besz\'e1ll\'edt\'f3_El\'e9rhet\uc0\u111 \u779 s\'e9g( El\'e9rhet\u111 \u779 s\'e9g VARCHAR(100) NOT NULL, Besz\'e1ll\'edt\'f3Id INT NOT NULL, PRIMARY KEY (Besz\'e1ll\'edt\'f3Id), FOREIGN KEY (Besz\'e1ll\'edt\'f3Id) REFERENCES Besz\'e1ll\'edt\'f3(Besz\'e1ll\'edt\'f3Id)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Keresked\'e9s_Aut\'f3_jellemz\uc0\u111 \u779 k( Aut\'f3_jellemz\u111 \u779 k VARCHAR(100) NOT NULL, Keresked\'e9sId INT NOT NULL, PRIMARY KEY (Keresked\'e9sId), FOREIGN KEY (Keresked\'e9sId) REFERENCES Keresked\'e9s(Keresked\'e9sId)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Dolgoz\'f3_Beoszt\'e1s( Beoszt\'e1sId INT NOT NULL, Beoszt\'e1s VARCHAR(20) NOT NULL, PRIMARY KEY (Beoszt\'e1sId)); 
+\fs24 \
+
+\fs26\fsmilli13333 CREATE TABLE Megrendel\uc0\u111 \u779 ( Ir\'e1ny\'edt\'f3sz\'e1m NUMERIC(6) CHECK(Ir\'e1ny\'edt\'f3sz\'e1m>0), Telep\'fcl\'e9s VARCHAR(20) NOT NULL, utca VARCHAR(50) NOT NULL, H\'e1zsz\'e1m NUMERIC(4) NOT NULL, N\'e9v VARCHAR(20) NOT NULL, Megrendel\u111 \u779 Id INT NOT NULL, Aut\'f3Id INT NOT NULL, Sz\'e1mlaId INT NOT NULL, PRIMARY KEY (Megrendel\u111 \u779 Id), FOREIGN KEY (Aut\'f3Id) REFERENCES Aut\'f3(Aut\'f3Id), FOREIGN KEY (Sz\'e1mlaId) REFERENCES Sz\'e1mla(Sz\'e1mlaId)); 
+\fs24 \
+}

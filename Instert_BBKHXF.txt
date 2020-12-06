@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1250\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red11\green76\blue180;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1961\c38824\c75686;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 Aut\'f3:\uc0\u8232 Begin\u8232 insert into Aut\'f3 values (0000001,'1200',110,'Ci\'e1n',3900000,'SkodaY3GTL',15497878); 
+\fs24 \
+
+\fs26\fsmilli13333 insert into Aut\'f3 values (0000002,'2200',190,'V\'f6r\'f6s',7900000,'SeatY3KHL',2787945);\uc0\u8232 insert into Aut\'f3 values (0000003,'1500',130,'Fekete',4900000,'ToyotaY4TTL',589788); insert into Aut\'f3 values (0000004,'1800',180,'K\'e9k',6000000,'VWYDFRT',587894);\u8232 insert into Aut\'f3 values (0000005,'1400',110,'Bazaltsz\'fcrke',4800000,'BMWHGFTG',58878); End 
+\fs24 \
+
+\fs26\fsmilli13333 Aut\'f3Extr\'e1k:\uc0\u8232 Begin\u8232 Insert into Aut\'f3Extr\'e1k values (0000002,\'92\'dcl\'e9sf\u117 \u779 t\'e9s\'92);\u8232 Insert into Aut\'f3Extr\'e1k values (0000003,\'92Korm\'e1ny\'e1ll\'edt\'e1s\'92);\u8232 Insert into Aut\'f3Extr\'e1k values (0000005,\'92Tolat\'f3kamera\'92);\u8232 Insert into Aut\'f3Extr\'e1k values (0000001,\'92D\'f6nthet\u111 \u779  \'fcl\'e9s\'92);\u8232 Insert into Aut\'f3Extr\'e1k values (0000004,\'92HarmanKardon hangrendszer\'92,\'924z\'f3n\'e1s kl\'edma\'92); End 
+\fs24 \
+
+\fs26\fsmilli13333 Aut\'f3Hajt\'e1s\uc0\u8232 Begin\u8232 Insert into Aut\'f3Hajt\'e1s values(0000001,\'924ker\'e9k\'92); Insert into Aut\'f3Hajt\'e1s values(0000002,\'922ker\'e9k\'92); Insert into Aut\'f3Hajt\'e1s values(0000003,\'922ker\'e9k\'92); Insert into Aut\'f3Hajt\'e1s values(0000004,\'924ker\'e9k\'92); Insert into Aut\'f3Hajt\'e1s values(0000005,\'92\'e1ll\'edthat\'f3\'92); End 
+\fs24 \
+
+\fs26\fsmilli13333 Megrendel\uc0\u111 \u779 :\u8232 Begin\u8232 insert into Megrendel\u111 \u779  values (0000001,3378,\'92Tal\'e1lom\'92,'K\'e9pzelet',14,0000004,1789); insert into Megrendel\u111 \u779  values (0000002,3379,\'92Gyula\'92,'K\'e9pz\u111 \u779 ',14,0000003,1478); 
+\fs24 \
+
+\fs26\fsmilli13333 insert into Megrendel\uc0\u111 \u779  values (0000003,3372,\'92Szeged\'92,'Tud\'e1s',14,0000005,1455);\u8232 insert into Megrendel\u111 \u779  values (0000004,3371,\'92Kerepestarcsa\'92,'Gy\'f6ngyfasor',14,0000002,1325); insert into Megrendel\u111 \u779  values (0000005,3375,\'92Tarnalelesz\'92,'Patakpart',14,0000001,1478);\u8232 End 
+\fs24 \
+\
+\
+\
+
+\fs26\fsmilli13333 Sz\'e1mla:\uc0\u8232 Begin\u8232 Insert into Sz\'e1mla values(6845,2580000,07/21/2011); Insert into Sz\'e1mla values(68885,258800,07/22/2015); Insert into Sz\'e1mla values(68789,4580000,07/23/2019); Insert into Sz\'e1mla values(6878,5811100,07/24/2018); Insert into Sz\'e1mla values(68585,4780000,07/25/2017); End 
+\fs24 \
+
+\fs26\fsmilli13333 Besz\'e1ll\'edt\'f3:\uc0\u8232 Begin\u8232 Insert into Besz\'e1ll\'edt\'f3 values (1234865,\'92Skoda\'92,\'9225478\'92,\'92Pr\'e1ga\'92,\'92Gy\'e1rt\'f3sor\'92,10); Insert into Besz\'e1ll\'edt\'f3 values (1234458,\'92VW\'92,\'92788954\'92,\'92Lichtenstein\'92,\'92Gy\'e1rt\'f3sor\'92,17); Insert into Besz\'e1ll\'edt\'f3 values (1234865,\'92BMW\'92,\'92455225\'92,\'92Frankfurt\'92,\'92Gy\'e1rt\'f3sor\'92,15); Insert into Besz\'e1ll\'edt\'f3 values (1234865,\'92Toyota\'92,\'9225588\'92,\'92LoShuan\'92,\'92Gy\'e1rt\'f3sor\'92,12); Insert into Besz\'e1ll\'edt\'f3 values (1234865,\'92Mitsubishi\'92,\'9225888\'92,\'92Kirikato\'92,\'92Gy\'e1rt\'f3sor\'92,14); End 
+\fs24 \
+
+\fs26\fsmilli13333 Besz\'e1ll\'edt\'f3El\'e9rhet\uc0\u111 \u779 s\'e9g:\u8232 Begin\u8232 Insert into Besz\'e1ll\'edt\'f3El\'e9rhet\u111 \u779 s\'e9g values (\cf3 6856156,\'92p\'e9lda@example.hu\'92\cf2 );\uc0\u8232 Insert into Besz\'e1ll\'edt\'f3El\'e9rhet\u111 \u779 s\'e9g values (65586856156,\'92+45 34 564443\'92);\u8232 Insert into Besz\'e1ll\'edt\'f3El\'e9rhet\u111 \u779 s\'e9g values (685658916156,\'92p\'e9lda@example-ext.hu\'92); Insert into Besz\'e1ll\'edt\'f3El\'e9rhet\u111 \u779 s\'e9g values (685648156,\'92p\'e9lda232@exam.hu\'92);\u8232 Insert into Besz\'e1ll\'edt\'f3El\'e9rhet\u111 \u779 s\'e9g values (6856695156,\'92+345 24 55645433\'92);    End\
+\
+Keresked\'e9s:\uc0\u8232 Begin\u8232 Insert into Keresked\'e9s values(2842,1,294651); Insert into Keresked\'e9s values(2842,1,29465781); Insert into Keresked\'e9s values(2856,0,29555651); Insert into Keresked\'e9s values(28866,1,295892); Insert into Keresked\'e9s values(256842,0,29468); End 
+\fs24 \
+
+\fs26\fsmilli13333 Keresked\'e9sAut\'f3Jellemz\uc0\u111 \u779 k:\u8232 Begin\u8232 Insert into Keresked\'e9sAut\'f3Jellemz\u111 \u779 k values(28512,\'92j\'f3 \'e1llapot\'fa\'92); Insert into Keresked\'e9sAut\'f3Jellemz\u111 \u779 k values(285452,\'92j\'f3 \'e1llapot\'fa\'92); Insert into Keresked\'e9sAut\'f3Jellemz\u111 \u779 k values(28545,\'92j\'f3 \'e1llapot\'fa\'92); Insert into Keresked\'e9sAut\'f3Jellemz\u111 \u779 k values(285455,\'92j\'f3 \'e1llapot\'fa\'92); Insert into Keresked\'e9sAut\'f3Jellemz\u111 \u779 k values(285456,\'92j\'f3 \'e1llapot\'fa\'92); End 
+\fs24 \
+
+\fs26\fsmilli13333 Dolgoz\'f3:\uc0\u8232 Begin\u8232 Insert into Dolgoz\'f3 values(2684,2548,2258,\'92F\'fcty\'fcl\u111 \u779 \'92,\'92Badacsonytomaj\'92,100000,2152,\'92Kiss B\'e9la\'92); Insert into Dolgoz\'f3 values(2587,2518,2258,\'92Patakpart\'92,\'92Tapolca\'92,250000,21522,\'92Nagy \'c1rpi\'92); Insert into Dolgoz\'f3 values(5874,2528,2258,\'92Fasor\'92,\'92Salg\'f3tarj\'e1n\'92,1000000,25152,\'92P\'e9lda P\'e9ter\'92); Insert into Dolgoz\'f3 values(584,2545,2258,\'92Telep\'92,\'92P\'e9cs\'92,10000214,21552,\'92\'d6rs Bal\'e1zs\'92);\u8232 Insert into Dolgoz\'f3 values(554,2541,2258,\'92K\'e9t\'fat\'92,\'92Szeged\'92,1000014,26152,\'92Karak\'f3 Szilvia\'92);\u8232 End 
+\fs24 \
+\
+
+\fs26\fsmilli13333 Dolgoz\'f3Beoszt\'e1s:\uc0\u8232 Begin\u8232 Insert into Dolgoz\'f3Beoszt\'e1s values(2484545,\'92Marketing manager\'92); Insert into Dolgoz\'f3Beoszt\'e1s values(248458,\'92Takar\'edt\'f3\'92);\u8232 Insert into Dolgoz\'f3Beoszt\'e1s values(24845,\'92Takar\'edt\'f3\'92);\u8232 Insert into Dolgoz\'f3Beoszt\'e1s values(245884,\'92Elad\'f3\'92);\u8232 Insert into Dolgoz\'f3Beoszt\'e1s values(24584,\'92Sof\u111 \u779 r\'92);\u8232 End 
+\fs24 \
+
+\fs26\fsmilli13333 Foglalkoztat\'e1s: Begin 
+\fs24 \
+
+\fs26\fsmilli13333 Insert into Insert into Insert into Insert into Insert into End Rendel\'e9s: Begin Insert into Insert into Insert into Insert into Insert into End 
+\fs24 \
+
+\fs26\fsmilli13333 Foglalkoztat\'e1s values(15743,1344); Foglalkoztat\'e1s values(443,1257); Foglalkoztat\'e1s values(58343,1554); Foglalkoztat\'e1s values(15343,124974); Foglalkoztat\'e1s values(66343,13147); 
+\fs24 \
+
+\fs26\fsmilli13333 Rendel\'e9s values(26441,3,7/7/2015,1589594,685548); Rendel\'e9s values(25841,3,8/7/2015,15895484,68255548); Rendel\'e9s values(26841,3,9/7/2015,1589584,68856848); Rendel\'e9s values(26541,3,10/7/2015,158585684,6885548); Rendel\'e9s values(25941,3,7/2/2015,15851584,6851548); 
+\fs24 \
+}

@@ -1,0 +1,228 @@
+{\rtf1\ansi\ansicpg1250\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\ftech\fcharset77 Symbol;\f2\fswiss\fcharset0 Helvetica;
+\f3\froman\fcharset0 TimesNewRomanPSMT;\f4\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 Az \'f6sszes adat lek\'e9rdez\'e9se a Dolgoz\'f3k t\'e1bl\'e1b\'f3l: \
+Select * from Dolgoz\'f3;\
+\pard\pardeftab1440\partightenfactor0
+
+\f1\fs30 \cf2 \CocoaLigature0 \outl0\strokewidth-134 \strokec2 \uc0\u928 (
+\f2 dolgoz\'f3
+\f1 )
+\f3 \outl0\strokewidth-134 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 \CocoaLigature1 \outl0\strokewidth0 \uc0\u8232 Az aut\'f3k t\'edpusa \'e9s \'e1ra:\u8232 Select T\'edpus, \'c1r from Aut\'f3; \
+\pard\pardeftab1440\partightenfactor0
+
+\f1\fs30 \cf2 \CocoaLigature0 \outl0\strokewidth-134 \uc0\u928 
+\f3 \outl0\strokewidth-134  
+\fs20 \dn11 \sub \outl0\strokewidth-134 t\'edpus, \'e1r 
+\fs30 \up0 \nosupersub \outl0\strokewidth-134 (AUTO)\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 \CocoaLigature1 \outl0\strokewidth0 Az aut\'f3k sz\'edn\'e9nek lek\'e9rdez\'e9se, ism\'e9tl\uc0\u111 \u779 d\'e9s n\'e9lk\'fcl:\u8232 Select distinct Sz\'edn from Aut\'f3;\
+\pard\pardeftab1440\partightenfactor0
+
+\f1\fs30 \cf2 \CocoaLigature0 \outl0\strokewidth-134 \uc0\u928 
+\f3 \outl0\strokewidth-134  
+\fs20 \dn11 \sub \outl0\strokewidth-134 sz\'edn 
+\fs30 \up0 \nosupersub \outl0\strokewidth-134 (AUTO)
+\f4\fs24 \outl0\strokewidth-167 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 \CocoaLigature1 \outl0\strokewidth0 \uc0\u8232 Azon dolgoz\'f3k Telep\'fcl\'e9se, ahol a fizet\'e9s meghaladja a 100000-et:\u8232 Select Telep\'fcl\'e9s from Dolgoz\'f3 WHERE Fizet\'e9s > 100000;\
+\pard\pardeftab1440\partightenfactor0
+
+\f1\fs30 \cf2 \CocoaLigature0 \outl0\strokewidth-134 \uc0\u928 
+\f3 \outl0\strokewidth-134  
+\fs20 \dn11 \sub \outl0\strokewidth-134 telep\'fcl\'e9s 
+\fs30 \up0 \nosupersub \outl0\strokewidth-134 (
+\f1 \outl0\strokewidth-134 \uc0\u963 
+\f3\fs20 \dn11 \sub \outl0\strokewidth-134 fizet\'e9s >100000
+\fs30 \up0 \nosupersub \outl0\strokewidth-134 (Dolgoz\'f3))\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 \CocoaLigature1 \outl0\strokewidth0 Azon aut\'f3k T\'edpus\'e1nak lek\'e9rdez\'e9se, ahol az \'e1r 2000000 \'e9s 3000000 k\'f6z\'f6tt van: Select T\'edpus from Aut\'f3 WHERE \'c1r BETWEEN 2000000 AND 3000000;\
+\pard\pardeftab1440\partightenfactor0
+
+\f1\fs30 \cf2 \CocoaLigature0 \outl0\strokewidth-134 \uc0\u928 
+\f3 \outl0\strokewidth-134  
+\fs20 \dn11 \sub \outl0\strokewidth-134 a.t\'edpus 
+\fs30 \up0 \nosupersub \outl0\strokewidth-134 (
+\f1 \outl0\strokewidth-134 \uc0\u963 
+\f3\fs20 \dn11 \sub \outl0\strokewidth-134 200000<\'e1r >300000
+\fs30 \up0 \nosupersub \outl0\strokewidth-134 (Aut\'f3))\uc0\u8232 A \'93P\'e9ter\'94 keresztnev\u117 \u779  emberek fizet\'e9se:\u8232 Select Fizet\'e9s from Goldoz\'f3 WHERE N\'e9v LIKE \'91% P\'e9ter%\'92;\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\fs26\fsmilli13333 \cf2 \CocoaLigature1 \outl0\strokewidth0 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub fizetes 
+\fs26\fsmilli13333 \up0 \nosupersub (
+\f1 \uc0\u963 
+\f0\fs17\fsmilli8889 \dn11 \sub N\'e9v = \'91P\'e9ter\'92
+\fs26\fsmilli13333 \up0 \nosupersub (Dolgoz\'f3))\uc0\u8232 Az aut\'f3k \'e1tlag\'e1ra:\u8232 Select avg(\'c1r) from Aut\'f3;\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\fs30 \cf2 \uc0\u915 
+\f0\fs20 \dn13 \sub t\'edpus\dn2 \super t\'edpus,\dn13 \sub  \dn2 \super avg(*) 
+\fs30 \up0 \nosupersub (Auto)\uc0\u8232 
+\fs26\fsmilli13333 H\'e1ny olyan dolgoz\'f3 van, ahol a fizet\'e9s nagyobb 400000-n\'e9l:\uc0\u8232 Select COUNT(Fizet\'e9s) from Dolgoz\'f3 WHERE Fizet\'e9s >400000;\
+
+\f1\fs30 \uc0\u915 
+\f0\fs20 \dn13 \sub dolgozo\dn2 \super count(dolgoz\'f3) 
+\fs30 \up0 \nosupersub (
+\f1\fs26\fsmilli13333 \uc0\u963 
+\f0\fs17\fsmilli8889 \dn11 \sub fizet\'e9s >400000
+\fs26\fsmilli13333 \up0 \nosupersub (Dolgoz\'f3)
+\fs30 )
+\fs26\fsmilli13333 \uc0\u8232 Olyan aut\'f3t\'edpus, ahol az \'e1tlag\'e1r meghaladja a 4000000 Ft-ot:\u8232 Select T\'edpus, avg(\'c1r) from Aut\'f3 GROUP BY T\'edpus HAVING avg(\'c1r) > 4000000; \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1 \cf2 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub tipus 
+\fs26\fsmilli13333 \up0 \nosupersub (
+\f1 \uc0\u963 
+\f0\fs17\fsmilli8889 \dn11 \sub avg(ar)>400000
+\fs26\fsmilli13333 \up0 \nosupersub (Aut\'f3))
+\fs24 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 Az aut\'f3k t\'edpus\'e1nak min \'e9s max \'e1ra, t\'edpusra csoportos\'edtva:\uc0\u8232 Select T\'edpus, min(\'c1r), max(\'c1r) from Aut\'f3 GROUP BY T\'edpus;\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1 \cf2 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub min(ar),max(ar) 
+\fs26\fsmilli13333 \up0 \nosupersub (
+\f2 Aut\'f3
+\f1  
+\f0 >< T\'edpus)\
+\uc0\u8232 A takar\'edt\'f3k neve ABC sorrendben:\u8232 select N\'e9v from Dolgoz\'f3 WHERE Beoszt\'e1s='Takar\'edt\'f3' ORDER BY N\'e9v; \
+
+\f1 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub n\'e9v
+\fs26\fsmilli13333 \up0 \nosupersub  (
+\f1 \uc0\u963 
+\f2\fs17\fsmilli8889 \dn11 \sub Beosztas
+\f1 =
+\f2 \'91Takar\'edt\'f3\'92
+\f0\fs26\fsmilli13333 \up0 \nosupersub (
+\f2 Dolgoz\'f3
+\f0 )\
+Aut\'f3k t\'edpusa \'e9s \'e1ra, \'e1r szerint cs\'f6kken\uc0\u111 \u779  sorrendben: 
+\fs24 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 Select T\'edpus, \'c1r from Aut\'f3 ORDER BY \'c1r DESC; \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1 \cf2 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub \'e1r,t\'edpus
+\fs26\fsmilli13333 \up0 \nosupersub  (Aut\'f3)\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf2 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 A Tapolcai emberek neve \'e9s aut\'f3juk t\'edpusa: 
+\fs24 \
+
+\fs26\fsmilli13333 Select N\'e9v, T\'edpus from Aut\'f3 INNER JOIN Megrendel\uc0\u111 \u779  USING Aut\'f3Id where Telep\'fcl\'e9s='Tapolca'; n\'e9v\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1 \cf2 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub t.n\'e9v, a.t\'edpus
+\fs26\fsmilli13333 \up0 \nosupersub  (
+\f1 \uc0\u963 
+\f2\fs17\fsmilli8889 \dn11 \sub lakhely
+\f1 =
+\f2 \'91Tapolca\'92
+\f0\fs26\fsmilli13333 \up0 \nosupersub (
+\f2 Megrendel\uc0\u337 
+\f0 )\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf2 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 Azok a rendel\'e9sek d\'e1tumai, ahol a besz\'e1ll\'edt\'f3 Frankfurti: 
+\fs24 \
+
+\fs26\fsmilli13333 Select D\'e1tum from Rendel\'e9s INNER JOIN Besz\'e1ll\'edt\'f3 USING Besz\'e1ll\'edt\'f3Id where Telep\'fcl\'e9s=\'92Frankfurt\'92; \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1 \cf2 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub d\'e1tum
+\fs26\fsmilli13333 \up0 \nosupersub  (
+\f1 \uc0\u963 
+\f2\fs17\fsmilli8889 \dn11 \sub Besz\'e1ll\'edt\'f3
+\f1 =
+\f2 \'91Frankfurt\'92
+\f0\fs26\fsmilli13333 \up0 \nosupersub (
+\f2 Rendel\'e9s
+\f0 )\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf2 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 Megrendel\uc0\u111 \u779 k aut\'f3j\'e1nak darabsz\'e1ma: 
+\fs24 \
+
+\fs26\fsmilli13333 Select N\'e9v, count(Tulajdonos) As Darab from Aut\'f3 RIGHT OUTER JOIN Megrendel\uc0\u111 \u779  ON Tulajdonos=Megrendel\u111 \u779 Id Group By N\'e9v; \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\fs30 \cf2 \uc0\u915 
+\f2\fs20 \dn13 \sub Megrendel\uc0\u337 
+\f0 \dn2 \super count(auto)
+\fs26\fsmilli13333 \up0 \nosupersub \uc0\u8232 
+\fs24 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 Milyen sz\'edn\uc0\u117 \u779  aut\'f3juk van egyes embereknek: 
+\fs24 \
+
+\fs26\fsmilli13333 SELECT N\'e9v, Sz\'edn FROM Aut\'f3 RIGHT OUTER JOIN Megrendel\uc0\u111 \u779  ON Tulajdonos=Megrendel\u111 \u779 Id; \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1 \cf2 \uc0\u928 
+\f0  
+\fs17\fsmilli8889 \dn11 \sub sz\'edn
+\fs26\fsmilli13333 \up0 \nosupersub  (
+\f1 \uc0\u963 
+\f2\fs17\fsmilli8889 \dn11 \sub Megrendel\uc0\u337 ID
+\f1 =
+\f2 \'91X\'92
+\f0\fs26\fsmilli13333 \up0 \nosupersub (
+\f2 Megrendel\uc0\u337 
+\f0 )\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf2 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs26\fsmilli13333 \cf2 A tapolcai tulajok aut\'f3j\'e1nak \'e1r\'e1t cs\'f6kkents\'fck 50000-el: 
+\fs24 \
+
+\fs26\fsmilli13333 UPDATE Aut\'f3 SET \'c1r=\'c1r-50000 WHERE Tulajdonos IN(SELECT Megrendel\uc0\u111 \u779 Id FROM Megrendel\u111 \u779  WHERE Telep\'fcl\'e9s='Tapolca'); 
+\fs24 \
+
+\fs26\fsmilli13333 T\'f6r\'f6lj\'fck azokat a tulajokat, akiknek pontosan 3 aut\'f3juk van: 
+\fs24 \
+
+\fs26\fsmilli13333 DELETE FROM Megrendel\uc0\u111 \u779  WHERE Megrendel\u111 \u779 Id IN(SELECT Megrendel\u111 \u779 Id, count(*) FROM Megrendel\u111 \u779 , Aut\'f3 WHERE Megrendel\u111 \u779 Id=Tulajdonos GROUP BY Megrendel\u111 \u779 Id HAVING count(*) = 3); 
+\fs24 \
+}

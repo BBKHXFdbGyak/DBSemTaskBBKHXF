@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1250\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Arial-ItalicMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf2 Megrendel\uc0\u111 \u779 [\ul Megrendel\uc0\u111 \u779 Id\ulnone ,
+\f1\i Aut\'f3Id
+\f0\i0 ,Ir\'e1ny\'edt\'f3sz\'e1m,Telep\'fcl\'e9s,Utca,H\'e1zsz\'e1m,N\'e9v] Aut\'f3[\ul Aut\'f3Id,
+\f1\i \ulnone Rendel\'e9sId
+\f0\i0 ,Henger\uc0\u117 \u779 rtartalom,Teljes\'edtm\'e9ny,Sz\'edn,\'c1r,T\'edpus] Aut\'f3Extr\'e1k[\ul Aut\'f3Id\ulnone ,Extr\'e1k]\uc0\u8232 Aut\'f3Hajt\'e1s[\ul Aut\'f3Id\ulnone ,Hajt\'e1s] 
+\fs24 \
+
+\fs26\fsmilli13333 Keresked\'e9s[\ul Keresked\'e9sId,\ulnone Aut\'f3Id,Tartalmaz] Keresked\'e9sAut\'f3Jellemz\uc0\u111 \u779 k[\ul Keresked\'e9sId,\ulnone  Aut\'f3Jellemz\uc0\u111 \u779 k] Besz\'e1ll\'edt\'f3[\ul Besz\'e1ll\'edt\'f3Id,\ulnone M\'e1rkan\'e9v,H\'e1zsz\'e1m,Telep\'fcl\'e9s,Ir\'e1ny\'edt\'f3sz\'e1m,Utca] Besz\'e1ll\'edt\'f3El\'e9rhet\uc0\u111 \u779 s\'e9g[\ul Besz\'e1ll\'edt\'f3Id\ulnone , El\'e9rhet\uc0\u111 \u779 s\'e9g] Rendel\'e9s[\ul Rendel\'e9sId\ulnone ,
+\f1\i Besz\'e1ll\'edt\'f3Id
+\f0\i0 , Darabsz\'e1m, D\'e1tum] 
+\fs24 \
+
+\fs26\fsmilli13333 Sz\'e1mla[\ul Megrendel\uc0\u111 \u779 Id,\ulnone  
+\f1\i Sz\'e1mlaId
+\f0\i0 , D\'e1tum]\uc0\u8232 Dolgoz\'f3[\ul Dolgoz\'f3Id\ulnone , 
+\f1\i Keresked\'e9sId
+\f0\i0 , 
+\f1\i Beoszt\'e1sId
+\f0\i0 , Fizet\'e9s,Ir\'e1ny\'edt\'f3sz\'e1m,Telep\'fcl\'e9s,Utca,H\'e1zsz\'e1m] Foglalkoztat\'e1s[\ul Keresked\'e9sId,\ulnone  \ul Dolgoz\'f3Id]\uc0\u8232 \ulnone Dolgoz\'f3Beoszt\'e1s[\ul Beoszt\'e1sId\ulnone ,Beoszt\'e1s] 
+\fs24 \
+
+\fs26\fsmilli13333 (Megjegyz\'e9s: a jegyz\uc0\u111 \u779 k\'f6nyvet apple pages-ben szerkesztem, ahol nem tal\'e1lok szaggatott al\'e1h\'faz\'e1st, ez\'e9rt d\u111 \u779 lttel jel\'f6ltem az idegen kulcsokat) 
+\fs24 \
+}
